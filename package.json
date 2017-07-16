@@ -1,0 +1,25 @@
+{
+  "name": "pianoforte",
+  "version": "1.0.0",
+  "description": "Web app that use the Web-Midi API to help piano students learn scales",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johanlajili/pianoforte.git"
+  },
+  "keywords": [
+    "midi",
+    "piano",
+    "teaching",
+    "webapp"
+  ],
+  "author": "Johan Lajili",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johanlajili/pianoforte/issues"
+  },
+  "homepage": "https://github.com/johanlajili/pianoforte#readme"
+}
