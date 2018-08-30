@@ -4,6 +4,8 @@
   "description": "Web app that use the Web-Midi API to help piano students learn scales",
   "main": "main.js",
   "scripts": {
+    "build": "browserify src/main.js -o output/bundle.js --debug",
+    "dev": "watchify src/main.js -o output/bundle.js --debug",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
